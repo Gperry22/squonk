@@ -1,0 +1,63 @@
+.marginBottom{
+    margin-bottom: 20px;
+}
+
+button {
+  color: #454545;
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #454545;
+  position: relative;
+  margin: 0.5em;
+  display: inline-block;
+  padding: 0.3em 0.5em;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-family: comfortaa;
+  font-weight: bold;
+  /* margin-left:15px; */
+}
+button.text-center{
+  margin-left: 30px;
+  /* margin-right: -30px; */
+
+}
+/*  border stuff*/
+button:before, button:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-color: #454545;
+  box-sizing: border-box;
+  border-style: solid;
+  width: 1em;
+  height: 1em;
+  transition: all 0.3s ease-in-out
+}
+/*  border stuff*/
+button:before {
+  top: -6px;
+  left: -6px;
+  border-width: 2px 0 0 2px;
+  z-index: 5;
+}
+ /* border stuff */
+button:after {
+  bottom: -6px;
+  right: -6px;
+  border-width: 0 2px 2px 0;
+}
+
+
+button:hover:before, button:hover:after {
+  width: calc(100% + 14px);
+  height: calc(100% + 14px);
+  border-color: #fff
+}
+
+button:hover {
+  color: #353535;
+  background-color: #fff;
+  border-color: #fff
+}

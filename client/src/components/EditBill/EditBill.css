@@ -1,0 +1,16 @@
+.marginTopAndBottom{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.unbill {
+  font-weight: bold;
+  font-size: 25px;
+  /* text-align: left; */
+  margin-left: -250px;
+  margin-bottom: 15px;
+}
+.static {
+  font-size: 15px;
+  /* margin-right: 10px; */
+}

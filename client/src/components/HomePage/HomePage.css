@@ -1,0 +1,297 @@
+/* LOGO*/
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya:900|Montserrat:700);
+.logo {
+    /* margin:10px; */
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    font-family: 'Alegreya', serif;
+    font-size: calc(1em + 12rem);
+    color: #fff;
+    height: 965vh;
+    overflow: hidden;
+}
+
+/* Shadows of the letters */
+
+.letter {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    text-shadow: 0 0.004em #000, 0.004em 0 grey, 0.004em 0.008em #000, 0.008em 0.004em grey, 0.008em 0.012em #000, 0.012em 0.008em grey, 0.012em 0.016em #000, 0.016em 0.012em grey, 0.016em 0.020em #000, 0.020em 0.016em grey, 0.020em 0.024em #000, 0.024em 0.020em grey, 0.024em 0.028em #000, 0.028em 0.024em grey, 0.028em 0.032em #000, 0.032em 0.028em grey, 0.032em 0.036em #000, 0.036em 0.032em grey, 0.036em 0.040em #000, 0.040em 0.036em grey, 0.040em 0.044em #000, 0.044em 0.040em grey, 0.044em 0.048em #000, 0.048em 0.044em grey, 0.048em 0.052em #000, 0.052em 0.048em grey, 0.052em 0.056em #000, 0.056em 0.052em grey, 0.056em 0.060em #000, 0.060em 0.056em grey, 0.060em 0.064em #000, 0.064em 0.060em grey, 0.064em 0.068em #000, 0.068em 0.064em grey, 0.068em 0.072em #000, 0.072em 0.068em grey, 0.072em 0.076em #000, 0.076em 0.072em grey, 0.076em 0.080em #000, 0.080em 0.076em grey, 0.080em 0.084em #000, 0.084em 0.080em grey, 0.084em 0.088em #000, 0.088em 0.084em grey, 0.088em 0.092em #000, 0.092em 0.088em grey, 0.092em 0.096em #000, 0.096em 0.092em grey, 0.096em 0.100em #000, 0.100em 0.096em grey, 0.100em 0.104em #000, 0.104em 0.100em grey, 0.104em 0.108em #000, 0.108em 0.104em grey, 0.108em 0.112em #000, 0.112em 0.108em grey, 0.112em 0.116em #000, 0.116em 0.112em grey, 0.116em 0.120em #000, 0.120em 0.116em grey, 0.120em 0.124em #000, 0.124em 0.120em grey, 0.124em 0.128em #000;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 0.010em;
+}
+
+/* letter 1 to letter 6  is "position ""*/
+
+.letter-1 {
+    transform: rotate(-2deg);
+}
+
+.letter-2 {
+    /* top: 0.132em; */
+    top: 0.240em;
+    margin-left: -1.20em;
+    transform: rotate(1deg);
+}
+
+.letter-3 {
+    margin-left: 0.42em;
+}
+
+.letter-4 {
+    margin-left: 0.01em;
+    transform: rotate(-0.3deg);
+}
+
+.letter-5 {
+    margin-left: -0.09em;
+    z-index: -1;
+}
+
+.letter-6 {
+    top: 0.136em;
+    margin-left: -1.2em;
+    transform: rotate(3deg);
+}
+
+/* When you hover on the logo */
+
+.logo:hover {
+    -webkit-transform: rotate(1deg) scale(1.01);
+    -moz-transform: rotate(1deg) scale(1.01);
+    -o-transform: rotate(1deg) scale(1.01);
+    -ms-transform: rotate(1deg) scale(1.01);
+    transform: rotate(1deg) scale(1.01);
+}
+
+.landing-page-container {
+    width: 100%;
+    /* min-height: 100%; */
+    height: 70rem;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: bottom; */
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #e70040;
+}
+
+.contentWrapper {
+    max-width: 1200px;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*The letters are inside the header  */
+
+.header {
+    width: 100%;
+    height: 2rem;
+    padding: 4.5rem -2rem;
+    display: block;
+    margin-left: -9rem;
+}
+
+/*  the circle is inside that container*/
+
+.ellipses-container {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 17.5rem;
+}
+
+/* the text inside the circle */
+
+.ellipses-container .greeting {
+    position: absolute;
+    top: 21.6rem;
+    left: 8rem;
+    right: 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 1.9rem;
+    /* font-size: 2.3rem; */
+    font-weight: 600;
+    opacity: 0.9;
+}
+/* 
+.ellipses-container .greeting:after {
+    content: '';
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #0C383E;
+    position: relative;
+    top: -0.65rem;
+    left: -5.05rem;
+} */
+
+.ellipses {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    border-style: solid;
+}
+
+.ellipsesOuterThin {
+    width: 100%;
+    height: 100%;
+    border-width: 1px;
+    border-color: rgba(9, 56, 62, 0.1);
+    -webkit-animation: ellipsesOrbit 15s ease-in-out infinite;
+    animation: ellipsesOrbit 15s ease-in-out infinite;
+}
+
+.ellipsesOuterThin:after {
+    content: "";
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.15;
+}
+
+.ellipsesOuterThick {
+    width: 99.5%;
+    height: 99.5%;
+    border-color: #09383E transparent;
+    border-width: 2px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: ellipsesRotate 15s ease-in-out infinite;
+    animation: ellipsesRotate 15s ease-in-out infinite;
+}
+
+.ellipsesOrbit {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-width: 2px;
+    border-color: #09383E;
+    top: 5rem;
+    right: 6.75rem;
+}
+
+.ellipsesOrbit:before {
+    content: '';
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #09383E;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*  the bars on get started */
+
+.scroller {
+    width: 7.5rem;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -15%;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    overflow: hidden;
+}
+
+/* bars under get started */
+
+.scroller .timeline .timelineUnit {
+    width: 100%;
+    height: 0.1rem;
+    display: block;
+    background-color: #0C383E;
+    margin: 0 0 2rem;
+    opacity: 0.2;
+}
+
+/* opacity of the bars */
+
+.scroller .timeline .timelineUnit.timelineUnitActive {
+    opacity: 1;
+}
+
+.scroller .timeline .timelineUnit:after {
+    content: '';
+    width: 50%;
+    height: 0.2rem;
+    display: block;
+    position: relative;
+    float: right;
+    background-color: #0C383E;
+    top: 1rem;
+}
+
+@-webkit-keyframes ellipsesRotate {
+    0% {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    100% {
+        -webkit-transform: rotate(-405deg);
+        transform: rotate(-405deg);
+    }
+}
+
+@keyframes ellipsesRotate {
+    0% {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    100% {
+        -webkit-transform: rotate(-405deg);
+        transform: rotate(-405deg);
+    }
+}
+
+@-webkit-keyframes ellipsesOrbit {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ellipsesOrbit {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.page-title{
+  font-size: 17px;
+  font-weight: bolder;
+  color: white;
+  /* margin-left: -10px; */
+}
+/*MENUUUUU  */

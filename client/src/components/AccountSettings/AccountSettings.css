@@ -1,0 +1,51 @@
+
+.marginTopAndBottom {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.headerBG {
+    background-color: #eaecef;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.headerBorderRight {
+    border-right: 1px solid black;
+}
+
+.acctBorder{
+  border-right: 1px solid black;
+    border: 1px solid black;
+    height: 410px;
+}
+
+.marginBottom{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.formButton {
+  color: #454545;
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #454545;
+  position: relative;
+  margin: 0.5em;
+  display: inline-block;
+  /* padding: 0.5em 1em; */
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-family: comfortaa;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.para{
+  margin-top: 25px;
+  font-size: 20px;
+}

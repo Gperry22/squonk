@@ -1,0 +1,45 @@
+
+.bg {
+    background-color: #eaecef;
+    height: 55px;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    margin-top: 15px;
+    /* font-size: 20px; */
+
+}
+
+.marginBottom {
+    margin-bottom: 30px;
+}
+
+/* select {
+    font-size: 18px;
+    margin-left: 10px;
+
+} */
+
+
+.marginLeft {
+    margin-left: 0px;
+}
+
+.headerBG {
+    background-color: #eaecef;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-top: -10px; */
+}
+
+.deletePosition {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    bottom: 1px;
+    left: 20px;
+   /* text-align: center; */
+   /* margin-top: -20px; */
+}

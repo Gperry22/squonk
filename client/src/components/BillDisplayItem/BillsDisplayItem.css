@@ -1,0 +1,8 @@
+.rowMargin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rowBG {
+    border-bottom: 1px dashed black;
+}
